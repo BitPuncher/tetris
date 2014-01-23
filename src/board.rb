@@ -35,6 +35,7 @@ class Board
 	def get_next_piece
 		@current_piece = @next_piece
 		@next_piece = Tetromino.new
+		@current_piece_position = [width / 2, height - 1]
 	end
 
 	def drop_current_piece

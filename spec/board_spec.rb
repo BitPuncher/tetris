@@ -58,7 +58,5 @@ describe Board do
 			expect(board.current_piece).to be_nil
 			expect(board.occupied_at?([board.width / 2, 0])).to be_true
 		end
-	end
-
-	
+	end	
 end
